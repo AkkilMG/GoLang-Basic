@@ -29,6 +29,6 @@ func main() {
 	if n <= 1 {
 		fmt.Println("It is not an prime number.")
 	} else {
-		fmt.Println(largestPrimeFactor(n))
+		fmt.Printf("The largest prime factor of %d is %d",n,largestPrimeFactor(n))
 	}
 }
