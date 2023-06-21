@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	// 1 a
+	/* 1 a
+	Output:
+	Sum of Fibonacci:  44
+	*/
 	var sum, prev, current int
 	prev = 0
 	current = 1

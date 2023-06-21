@@ -24,11 +24,16 @@ func largestPrimeFactor(n int) int {
 }
 
 func main() {
+	/* 1 b
+	Output:
+	24
+	The largest prime factor of 24 is 3.
+	*/
 	var n int
 	fmt.Scan(&n)
 	if n <= 1 {
 		fmt.Println("It is not an prime number.")
 	} else {
-		fmt.Printf("The largest prime factor of %d is %d",n,largestPrimeFactor(n))
+		fmt.Printf("The largest prime factor of %d is %d.\n",n,largestPrimeFactor(n))
 	}
 }
