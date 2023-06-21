@@ -33,7 +33,7 @@ func largestPalindromeProduct() (int, int, int) {
 }
 
 func main() {
-	/* 
+	/* 2 a
 	Output:
 	The largest palindrome product is: 906609
 	The multiplicants are: 993 and 913
