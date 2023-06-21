@@ -33,6 +33,11 @@ func largestPalindromeProduct() (int, int, int) {
 }
 
 func main() {
+	/* 
+	Output:
+	The largest palindrome product is: 906609
+	The multiplicants are: 993 and 913
+	*/
 	result, mul1, mul2 := largestPalindromeProduct()
 	fmt.Printf("The largest palindrome product is: %d\n", result)
 	fmt.Printf("The multiplicants are: %d and %d\n", mul1, mul2)
