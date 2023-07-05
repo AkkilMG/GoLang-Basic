@@ -47,20 +47,20 @@ func (p *Philospher) dine(table *DiningTable) {
 }
 
 func main() {
-	/*
-		Output:
-		Philospher 2 is thinking
-		Philospher 0 is thinking
-		Philospher 1 is thinking
-		Philospher 1 is eating
-		Philospher 1 is thinking
-		Philospher 2 is eating
-		Philospher 2 is thinking
-		Philospher 1 is eating
-		Philospher 0 is eating
-		Philospher 0 is thinking
-		Philospher 2 is eating
-		Philospher 0 is eating
+	/* 4a
+	Output:
+	Philospher 2 is thinking
+	Philospher 0 is thinking
+	Philospher 1 is thinking
+	Philospher 1 is eating
+	Philospher 1 is thinking
+	Philospher 2 is eating
+	Philospher 2 is thinking
+	Philospher 1 is eating
+	Philospher 0 is eating
+	Philospher 0 is thinking
+	Philospher 2 is eating
+	Philospher 0 is eating
 	*/
 	table := &DiningTable{
 		philospher: make([]*Philospher, numPhilosophers),
